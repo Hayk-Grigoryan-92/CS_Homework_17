@@ -74,9 +74,10 @@ namespace lesson17
         {
             for (int i = 0; i < 10; i++)
             {
-                if (Grade[i] != 0)
+                if (Grade[i] == 0)
                 {
                     Grade[i] = grade;
+                    break;
                 }
             }
         }
@@ -99,7 +100,6 @@ namespace lesson17
             return average;
         }
 
-       /// ?????????
         public void DisplayInfo()
         {
             string gradeStr = string.Join(", ", Grade);

@@ -33,7 +33,7 @@ namespace lesson17
             student1.AddGrade(5);
             student1.AddGrade(6);
             student1.GetAverageGrade();
-            student1.DisplayInfo(); // ???
+            student1.DisplayInfo();
 
             School school = new School(100);
             school.AddStudent(student1);
